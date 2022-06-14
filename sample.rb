@@ -13,12 +13,3 @@
 
 # co=mo()
 # puts co
-
-a=Array.new
-a.append({
-      :name=>"mohith",
-      :roll_no=>@roll_no,
-      :marks=>@marks
-    })
-
-puts a[0][:name]
