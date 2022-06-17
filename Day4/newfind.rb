@@ -5,6 +5,7 @@ class Array
     self.each do |i|
       if(yield(i))
         res=i
+        break
       end
     end
     return res
