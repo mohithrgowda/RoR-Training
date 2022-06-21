@@ -6,4 +6,5 @@ class User < ApplicationRecord
     self.name=self.name.capitalize
   end
   has_many :posts, dependent: :destroy
+  has_many :comments , dependent: :destroy
 end
