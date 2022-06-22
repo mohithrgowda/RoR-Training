@@ -13,3 +13,9 @@
 
 # co=mo()
 # puts co
+
+
+User.joins(:posts)
+User.includes(:posts)
+User.eager_load(:posts)
+User.preload(:posts)
